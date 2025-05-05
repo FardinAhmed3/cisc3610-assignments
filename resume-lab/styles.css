@@ -1,0 +1,71 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link.active {
+    color: #93C5FD;
+    border-bottom: 2px solid #93C5FD;
+}
+
+section {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-wrapper {
+    transform: translateX(0);
+    width: 100%;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+.carousel-indicators .active {
+    background-color: #1F2937;
+    width: 1rem;
+}
+
+.carousel-item .bg-gray-50:hover {
+    background-color: #F9FAFB;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.bg-blue-100, .bg-green-100, .bg-purple-100, .bg-yellow-100 {
+    transition: transform 0.2s ease;
+}
+
+.bg-blue-100:hover, .bg-green-100:hover, .bg-purple-100:hover, .bg-yellow-100:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    #prev-btn, #next-btn {
+        padding: 0.5rem;
+    }
+    
+    #prev-btn svg, #next-btn svg {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+.fas, .fab {
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+} 

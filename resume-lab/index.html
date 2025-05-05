@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Lab</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 font-sans">
+    <nav class="bg-gray-800 text-white p-4 sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="text-xl font-bold mb-2 md:mb-0">My Resume</div>
+            <div class="flex space-x-4">
+                <a href="#about" class="nav-link hover:text-blue-300 transition duration-300">About</a>
+                <a href="#education" class="nav-link hover:text-blue-300 transition duration-300">Education</a>
+                <a href="#experience" class="nav-link hover:text-blue-300 transition duration-300">Experience</a>
+                <a href="#skills" class="nav-link hover:text-blue-300 transition duration-300">Skills</a>
+                <a href="#activities" class="nav-link hover:text-blue-300 transition duration-300">Activities</a>
+                <a href="#portfolio" class="nav-link hover:text-blue-300 transition duration-300">Portfolio</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto p-4 mt-4">
+        <section id="about" class="bg-white rounded-lg shadow-md p-6 mb-8 hover:shadow-lg transition-all duration-500">
+            <h2 class="text-3xl font-bold mb-4 text-gray-800 border-b pb-2">About Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="col-span-2">
+                    <h1 class="text-4xl font-bold mb-2 text-gray-800 hover:text-gray-700 transition-colors duration-300">Fardin Ahmed</h1>
+                    <p class="text-lg mb-4 text-gray-600">Aspiring Software Engineer</p>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-700 flex items-center">
+                            Summary
+                        </h3>
+                        <p class="text-gray-600">Hello! I'm Fardin, a passionate software engineer with expertise in Django, React, various programming languages and enterprise software development. I love creating responsive and user-friendly web applications that solve real-world problems. Currently, I am a fourth-year Computer Science student at Brooklyn College, expected to graduate in Fall 2025. I'm always trying to learn new technologies, take on challenging projects.</p>
+                    </div>
+                    <div class="mb-2 mt-4">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-700 flex items-center">
+                            Contact Information
+                        </h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-center text-gray-600 hover:text-gray-900 transition-colors duration-300">
+                                <p><a id="emailLink" href="#" class="text-blue-600 hover:text-blue-300 transition-colors duration-300">My Email</a></p>
+                            </li>
+                            <li class="flex items-center text-gray-600 hover:text-gray-900 transition-colors duration-300">
+                                <a href="https://linkedin.com/in/fahmed7" class=" text-blue-600 hover:text-blue-300 transition-colors duration-300">LinkedIn Profile</a>
+                            </li>
+                                <a href="https://github.com/FardinAhmed3" class=" text-blue-600 hover:text-blue-300 transition-colors duration-300">GitHub Profile</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-3xl font-bold mb-4 text-gray-800 border-b pb-2">Education</h2>
+            <div class="mb-6">
+                <div class="flex flex-col md:flex-row justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-700">Bachelor of Science in Computer Science</h3>
+                    <span class="text-gray-500">2021 - 2025 (Expected)</span>
+                </div>
+                <p class="text-gray-600 mb-1">CUNY Brooklyn College</p>
+                <p class="text-gray-600 mt-2">Relevant Coursework: Data Structures, Analysis of Algorithms, Database Systems</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-3xl font-bold mb-4 text-gray-800 border-b pb-2">Experience</h2>
+            <div class="mb-6">
+                <div class="flex flex-col md:flex-row justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-700">Software Engineer Intern</h3>
+                    <span class="text-gray-500">2024 - Present</span>
+                </div>
+                <p class="text-gray-600 mb-2">City University of New York</p>
+                <ul class="list-disc list-inside text-gray-600 ml-4">
+                    <li>Assisted in developing internal project management portal using ASP.NET MVC and C#.</li>
+                    <li>Engineered and maintained microservices modules for project scheduling and resource allocation.</li>
+                    <li>Spearheaded the development of an internal data visualization platform.</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <div class="flex flex-col md:flex-row justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-700">SEEK Computer Science Tutor</h3>
+                    <span class="text-gray-500">2025 - Present</span>
+                </div>
+                <p class="text-gray-600 mb-2">Brooklyn College</p>
+                <ul class="list-disc list-inside text-gray-600 ml-4">
+                    <li>Tutored students in Computer Science courses, including CISC 3130 Data Structures and CISC 3115 Modern Programming in Java</li>
+                    <li>Created lesson plans and materials for each session to ensure a comprehensive and engaging learning experience.</li>
+
+                </ul>
+            </div>
+            <div>
+                <div class="flex flex-col md:flex-row justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-700">Data Analyst Intern</h3>
+                    <span class="text-gray-500">2023 - 2024</span>
+                </div>
+                <p class="text-gray-600 mb-2">City University of New York</p>
+                <ul class="list-disc list-inside text-gray-600 ml-4">
+                    <li>Automated excel workflows with Python, utilizing Pandas.</li>
+                    <li>Implemented a lightweight SQLite database to streamline access to AutoCAD drawings.</li>
+                    <li> Performend data analysis, cleaning and statistical modeling on project financial data to identify trends. </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-3xl font-bold mb-4 text-gray-800 border-b pb-2">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-700 flex items-center">
+                        <svg class="w-5 h-5 mr-2 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
+                        </svg>
+                        Backend
+                    </h3>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">FastAPI</span>
+                        <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">Django</span>
+                        <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">Spring</span>
+                        <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">ASP.NET</span>
+                        <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">Node.js</span>
+                        <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">Express</span>
+                    </div>
+                    
+                    <h3 class="text-xl font-semibold mb-3 text-gray-700 flex items-center">
+                        <svg class="w-5 h-5 mr-2 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                        Frontend
+                    </h3>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">React</span>
+                        <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">Vue.js</span>
+                        <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">Material-UI</span>
+                        <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">TailwindCSS</span>
+                        <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">Bootstrap</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-700 flex items-center">
+                        <svg class="w-5 h-5 mr-2 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                        </svg>
+                        Database
+                    </h3>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">MySQL</span>
+                        <span class="bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">MongoDB</span>
+                        <span class="bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">MySQL</span>
+                        <span class="bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">Redis</span>
+                    </div>
+                    
+                    <h3 class="text-xl font-semibold mb-3 text-gray-700 flex items-center">
+                        <svg class="w-5 h-5 mr-2 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                        DevOps
+                    </h3>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">Git</span>
+                        <span class="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">Docker</span>
+                        <span class="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">CI/CD</span>
+                        <span class="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">AWS</span>
+                        <span class="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded transition-all duration-300 hover:-translate-y-1 hover:shadow-md">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities & Honors Section -->
+        <section id="activities" class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-3xl font-bold mb-4 text-gray-800 border-b pb-2">Activities & Honors</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <ul class="list-disc list-inside text-gray-600 ml-4">
+                        <li>Brooklyn College Hackathon Winner (2025)</li>
+                        <li>Dean's List, Brooklyn College (Fall 2024)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-3xl font-bold mb-4 text-gray-800 border-b pb-2">Portfolio</h2>
+            <p class="text-gray-600 mb-6">Check out some of my recent projects:</p>
+            
+            <div class="relative w-full overflow-hidden rounded-lg">
+                <div id="carousel-wrapper" class="flex w-full transition-transform duration-500 ease-in-out">
+                    <!-- Project 1 -->
+                    <div class="w-full flex-none px-4">
+                        <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition-all duration-300 transform hover:scale-[1.02]">
+                            <div class="h-64 overflow-hidden mb-4">
+                                <img src="YapYap.png" alt="YapYap" class="w-full h-full object-contain mx-auto">
+                            </div>
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">YapYap</h3>
+                            <p class="text-gray-600 mb-4">Real Time Chat Application built with FastAPI, NextJS, MongoDB, and MySQl.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">NextJS</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">FastAPI</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">MongoDB</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">MySQL</span>
+                            </div>
+                            <a href="https://yapyap.fardinahmed.com" class="text-blue-600 hover:underline">View Project</a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="w-full flex-none px-4">
+                        <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition-all duration-300 transform hover:scale-[1.02]">
+                            <div class="h-64 overflow-hidden mb-4">
+                                <img src="Penfluence.png" alt="Penfluence" class="w-full h-full object-contain mx-auto">
+                            </div>
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Penfluence</h3>
+                            <p class="text-gray-600 mb-4">Machine vision assisted tool to extract handwritten notes and convert into downloadable PDFs</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">NextJS</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">FastAPI</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">OpenAI</span>
+                            </div>
+                            <a href="https://penfluence.vercel.app" class="text-blue-600 hover:underline">View Project</a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="w-full flex-none px-4">
+                        <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition-all duration-300 transform hover:scale-[1.02]">
+                            <div class="h-64 overflow-hidden mb-4">
+                                <img src="Excilify_simulation.jpg" alt="Excilify" class="w-full h-full object-contain mx-auto">
+                            </div>
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Excilify</h3>
+                            <p class="text-gray-600 mb-4">Data extraction and visualization tool built to streamline financial records at a project management office</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Django</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">React</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">MySQL</span>
+                            </div>
+                            <a href="#" class="text-blue-600 hover:underline">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Controls -->
+                <button id="prev-btn" class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-r-md opacity-75 hover:opacity-100 transition-opacity duration-300 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                </button>
+                <button id="next-btn" class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-l-md opacity-75 hover:opacity-100 transition-opacity duration-300 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+                <!-- Carousel Indicators -->
+                <div class="flex justify-center mt-4 space-x-2">
+                    <button class="carousel-indicator w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500 transition-colors duration-300 focus:outline-none"></button>
+                    <button class="carousel-indicator w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500 transition-colors duration-300 focus:outline-none"></button>
+                    <button class="carousel-indicator w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500 transition-colors duration-300 focus:outline-none"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-6 mt-8">
+        <div class="container mx-auto text-center">
+            <p>© 2025 Fardin Ahmed. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
